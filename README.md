@@ -1,4 +1,4 @@
-# How to write a paper proving there's a link between the sun and climate
+# How to write a solar-climate relationship paper
 
 The following methodology, is a useful guide to getting started in this exciting field. You just have to look at the sun (not recommended) to know it plays an important role in the climate.
 
@@ -23,4 +23,4 @@ The following methodology, is a useful guide to getting started in this exciting
 
 <sup>2</sup> Smoothing series is an art. You want to choose a filter that emphasises the key frequencies in your data. A good way to find these is to do a fourier transform or wavelet decomposition of the data, or some kind of non-linear decomposition. Pick out the most prominent frequency then choose a moving average filter with a frequency response that emphasises that particular frequency. This is OK because you really want to isolate your signal. To be doubly sure, you might want to use both low and high pass filters to really screen out everything but.
 
-<sup>3</sup> Bad data can be due to many things: urbanisation, station siting, poorly maintained equipment, change in equipment, station moves, because you have a hunch its bad. It can also be due to corrections for some or all of these factors.
+<sup>3</sup> Bad data can be due to many things: urbanisation, station siting, poorly maintained equipment, change in equipment, station moves, because you have a hunch its bad. It can also be due to corrections for some or all of these factors. Old data is bad because it is old, but new data is bad because of airports and air conditioning.
