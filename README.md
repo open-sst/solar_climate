@@ -6,11 +6,11 @@ The following methodology, is a useful guide to getting started in this exciting
 2. Collect as many climate time series as possible (if you can get gridded data, that's even better).
 3. You don't have enough series so also calculate cumulative sums, and first differences of all these series.
 4. Calculate correlations between all possible pairs.
-5. If correlations are significant (it doesn't matter how you calculate this, but whatever standard test is available in your stats software is probably fine<sup>1</sup>), go to step X. If there's more than one, pick the highest.
+5. If correlations are significant (it doesn't matter how you calculate this, but whatever standard test is available in your stats software is probably fine<sup>1</sup>), go to step 14. If there's more than one, pick the highest.
 6. If none of the correlations are significant then smooth the series (there are lots of ways to smooth a series, so try a few different combinations<sup>2</sup>.) and recalculate the correlations.
-7. If correlations are significant, go to step X.
+7. If correlations are significant, go to step 14.
 8. If none of the correlations are significant even after smoothing, try changing the lag for each series and hunt for the lags that give the highest correlations.
-9. If correlations are significant, go to step X
+9. If correlations are significant, go to step 14.
 10. If none of the correlations are significant, then perhaps certain parts of the solar cycle "trigger" an event. Hunt through all the series for coincident "events" e.g. the peak of the solar cycle and a transition of the NAO.
 11. If you don't have a significant correlation or relationship at this point, you haven't been trying hard enough. You have two options: (a) go back to step 1 and think harder (you got this) or (b) look at the existing literature for inspiration. There's another option (c) which is to recast the paper as exploratory and then nothing needs to be significant. Insignificant correlations can still be high enough to be "suggestive" and "something to keep an eye on as more data come in".
 12. It might be that, even now, the relationship isn't as good as it could be. If you have followed the above steps faithfully, then the problem is probably bad data. Luckily data is always bad<sup>3</sup> when it gets in the way of a sun-climate relationship so you don't have to get into details. If you can get hold of some unadjusted data, try that too.
